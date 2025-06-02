@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { db } from '@/utils/dbconfig';
+import { db } from '@/utils/dbConfig';
 import { Budgets, Expenses } from '@/utils/schema';
 import { toast } from 'sonner';
 import moment from 'moment/moment';

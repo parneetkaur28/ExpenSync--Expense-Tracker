@@ -1,5 +1,5 @@
 "use client"
-import { db } from '@/utils/dbconfig'
+import { db } from '@/utils/dbConfig'
 import { Budgets } from '@/utils/schema'
 import { useUser } from '@clerk/nextjs'
 import React, { use,useEffect, useState } from 'react'

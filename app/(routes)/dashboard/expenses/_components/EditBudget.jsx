@@ -16,7 +16,7 @@ import {
   } from "@/components/ui/dialog"
   import EmojiPicker from 'emoji-picker-react'
   import { useUser } from '@clerk/nextjs';
-import { db } from '@/utils/dbconfig';
+import { db } from '@/utils/dbConfig';
 import { Budgets } from '@/utils/schema';
 import { eq } from 'drizzle-orm';
 import { toast } from 'sonner';

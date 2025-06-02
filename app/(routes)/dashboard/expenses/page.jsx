@@ -3,7 +3,7 @@ import React from 'react'
 import {UserButton, useUser} from '@clerk/nextjs';
 import { useState } from 'react';
 import { useEffect } from 'react';
-import { db } from '@/utils/dbconfig';
+import { db } from '@/utils/dbConfig';
 import { sql } from 'drizzle-orm';
 import { sum, count } from 'drizzle-orm';
 import { eq } from 'drizzle-orm';
